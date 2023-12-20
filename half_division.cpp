@@ -9,7 +9,7 @@ double F(double x)
 
 int main()
 {
-    int amount_of_iterations;
+    int amount_of_iterations = 0;
     double A = 1, B = 2, c, epsilon = pow(10, -6);
     while (B - A > epsilon){
         amount_of_iterations++;
