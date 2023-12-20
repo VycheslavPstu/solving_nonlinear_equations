@@ -10,7 +10,7 @@ double dF (double x) {
 }
 
 int main() {
-    int amount_of_iterations;
+    int amount_of_iterations = 0;
     double A = 1, B = 2, epsilon = pow(10, -6);
     while (fabs(B-A)>epsilon) {
         amount_of_iterations++;
