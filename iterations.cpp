@@ -6,7 +6,7 @@ double F(double x) {
 }
 
 int main() {
-    int amount_of_iterations;
+    int amount_of_iterations = 0;
     double x = 1, x0=0, epsilon = pow(10, -6);
     while (fabs(x0-x)>epsilon) {
         amount_of_iterations++;
